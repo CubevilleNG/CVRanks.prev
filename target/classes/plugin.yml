@@ -1,0 +1,16 @@
+name: CVRanks
+main: org.cubeville.ranks.CVRanks
+author: KipperOrigin
+version: 0.1
+
+depend: [CVTools]
+
+permissions:
+  cubeville.instasmelt:
+    description: Gives player access to the instasmelt rank.
+    default: op
+    
+commands:
+  cvranks:
+    description: CVRanks Base Command
+    permission: cvranks.commands
